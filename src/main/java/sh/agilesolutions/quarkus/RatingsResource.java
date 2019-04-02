@@ -10,7 +10,7 @@ public class RatingsResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String hello() {
-        return "hello";
+    public String getRatings() {
+        return "high rated";
     }
 }
